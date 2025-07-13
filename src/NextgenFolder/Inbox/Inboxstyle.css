@@ -1,0 +1,40 @@
+
+        .card {
+              width: 300px;
+              border-radius: 10px;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              background: #fff;
+              padding: 20px;
+              text-align: center;
+          }
+          .card h2 {
+              margin: 0 0 10px;
+              font-size: 1.5rem;
+              color: #333;
+          }
+          .card p {
+              margin: 10px 0;
+              font-size: 1rem;
+              color: #555;
+          }
+          .card a{
+              background: #012953;
+              color: #fff;
+              border: none;
+              border-radius: 5px;
+              padding: 10px 15px;
+              font-size: 1rem;
+              cursor: pointer;
+              transition: background 0.3s;
+          }
+          .card button:hover {
+              background: #001730;
+          }
+          .message {
+            font-size: 0.9rem;
+            color: #666;
+            margin: 10px 0;
+            text-align: justify;
+            height: 50px;
+            overflow-y: scroll;
+        }
