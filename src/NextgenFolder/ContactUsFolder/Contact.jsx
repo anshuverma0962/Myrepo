@@ -56,7 +56,7 @@ export default function Contact() {
                             <div className='d-flex mx-3'>
                                 <img src={location}></img>
                                 <div className='contact_item'>
-                                    <h4>Matrix Filtration</h4>
+                                    <h4>Matrix Filtration   </h4>
                                     <p>140, Khandsa Road, Gurgaon, Haryana, India</p>
                                 </div>
                             </div>
@@ -81,30 +81,30 @@ export default function Contact() {
                             <div className='mainHeading mx-3'>
                                 <h3 className='mx-3'>Get In Touch</h3>
                                 <div className='mx-3'>
-                                    {submission == true ? <h4 style={{ color: '#FC0606' }}>Sent succesfully  <button className='msgbtn' onClick={messageHandler}>X</button> </h4> : ''}
+                                    {submission == true ? <h4 style={{ color: '#FC0606' }}> Query Sent succesfully  <button className='msgbtn' onClick={messageHandler}>X</button> </h4> : ''}
                                 </div>
                                 <form onSubmit={submitHandler}>
                                     <div className='d-flex'>
                                         <div> <label className='mx-3'>Name <sup>*</sup></label><br />
-                                            <input className='mx-3' type='text' onChange={(e) => setName(e.target.value)} value={name}></input>
+                                            <input className='mx-3' type='text' onChange={(e) => setName(e.target.value)} value={name} required></input>
                                         </div>
                                         <div>
                                             <label>Mobile no <sup>*</sup></label> <br />
-                                            <input type='number' onChange={(e) => setMobile(e.target.value)} value={mobile} ></input>
+                                            <input type='number' onChange={(e) => setMobile(e.target.value)} value={mobile}  required ></input>
                                         </div>
                                     </div>
                                     <div className='d-flex'>
                                         <div>
-                                            <label className='mx-3' >Email ID <sup>*</sup></label> <br />
-                                            <input className='mx-3' type='email' onChange={(e) => setEmail(e.target.value)} value={email}></input>
+                                            <label className='mx-3' >Email ID </label> <br />
+                                            <input className='mx-3' type='email' onChange={(e) => setEmail(e.target.value)} value={email} ></input>
                                         </div>
                                         <div>
                                             <label>Company Name <sup>*</sup></label> <br />
-                                            <input type='text' onChange={(e) => setCompany(e.target.value)} value={company} ></input>
+                                            <input type='text' onChange={(e) => setCompany(e.target.value)} value={company} required></input>
                                         </div>
                                     </div>
                                     <label className='mx-3'>Message <sup>*</sup></label> <br />
-                                    <textarea className='p-5 mx-3' type='number' onChange={(e) => setMessage(e.target.value)} value={message}></textarea>
+                                    <textarea className='p-5 mx-3' type='number' onChange={(e) => setMessage(e.target.value)} value={message} required></textarea>
                                     <br />
                                     <button className='my-5 submitButton mx-3' type='submit'> Submit</button>
                                 </form>

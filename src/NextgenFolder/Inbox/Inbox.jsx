@@ -5,9 +5,11 @@ import Footer from '../Footer/Footer'
 import InboxCard from './InboxCard'
 import './inboxstyle.css'
 export default function Inbox() {
+ 
   const [item, setItem] = useState([])
   const firebase = useFirebase()
   useEffect(() => {
+     alert("message sent from contact us form will appear here.....")
     firebase.getDetail().then((message) => setItem(message.docs))
   }, [])
   return (
