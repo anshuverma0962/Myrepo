@@ -1,0 +1,41 @@
+/* service banner ---------- */
+.service_baner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),url('./ServiceAssets/services-1-1568x327.png');
+}
+
+.service_content {
+   
+    border-radius: 16px;
+    /* border: 1px solid rgb(172, 33, 33); */
+ flex: 0 0 auto;
+ width: 50%;
+ padding-left:40px;
+ padding-right: 40px;
+ 
+}
+.service {
+   margin-top: 100px;
+}
+
+.service_content h2 {
+    font-size: 42px;
+    line-height: 52px;
+
+}
+.service_content p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: black;
+}
+.serviceSection img {
+    width: 100%;
+    border-radius: 20px;
+}
+.inner_content {
+    margin-top: 12%;
+    padding: 20px;
+    border: 1px solid rgb(146, 144, 144);
+    border-radius: 20px;    
+}
+

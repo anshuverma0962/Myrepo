@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './ClientStyle.css'
 import Navbar from '../Navbar'
 import Footer from '../Footer/Footer'
 import { ClientList } from './ClientListData'

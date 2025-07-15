@@ -7,6 +7,7 @@ import Client from './NextgenFolder/ClientsFolder/Client';
 import Contact from './NextgenFolder/ContactUsFolder/Contact';
 import Login from './NextgenFolder/Login';
 import Inbox from './NextgenFolder/Inbox/Inbox';
+import Page_404 from './NextgenFolder/PageNotFound/Page_404';
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
         <Route path='/contact' element={<Contact></Contact>} > </Route>
         <Route path='/login' element={<Login></Login>} > </Route>
         <Route path='/inbox' element={<Inbox></Inbox>}></Route>
+        <Route path='/*' element={<Page_404></Page_404>}></Route>
       </Routes>
     </>
   )

@@ -136,8 +136,8 @@ export default function Home() {
                     <div className='col-md-6 my-5 Collab_content'>
                         <h1>Collaboration & Experience</h1>
                         <p>In 2021 Matrix Filtration India Pvt Ltd had a collaboration with TAN Delta Systems Ltd, a UK based company, world leader in oil condition monitoring management systems.</p>
-                        <div className='row Collab mx-auto my-4'>
-                            <div className='col-md-6 collab_first'>
+                        <div className='row Collab mx-auto my-5'>
+                            <div className='col-md-6 collab_first '>
                                 <a className='collab_first ' href='#'>Collaborations</a>
                             </div>
                             <div className='col-md-6 collab_second'>

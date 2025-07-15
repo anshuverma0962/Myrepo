@@ -1,11 +1,12 @@
 import React from 'react'
+import './ServiceStyle.css'
 import Navbar from '../Navbar'
 import Footer from '../Footer/Footer'
 import filter from './ServiceAssets/filtration.png'
 import analyse from './ServiceAssets/analysis.png'
 export default function ServingIndustries() {
   return (
-    <div>
+    <div className='srvc'>
       <Navbar></Navbar>
       <section className='container-fluid About_baner service_baner'>
         <div className='baner_content container'>

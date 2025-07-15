@@ -40,7 +40,7 @@ export default function Navbar() {
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
-                            <button className="nav_contact_btn" type="submit" style={{ padding: '10px 50px', borderRadius: '50px',border:'none',transition:'all 0.4s ease-in-out',border:'1px solid grey' }}  >Contact Us</button>
+                            <button className="nav_contact_btn" type="submit" style={{ padding: '10px 50px', borderRadius: '50px',transition:'all 0.4s ease-in-out',border:'1px solid grey' }}  >Contact Us</button>
                         </form>
                     </div>
                 </div>

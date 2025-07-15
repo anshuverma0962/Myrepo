@@ -1,0 +1,133 @@
+/* about us banner  */
+.About_baner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),url('./AboutAssets/baner.png');
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.spanbar {
+    height: 5px;
+    width: 80px;
+    background-color: #F02916;
+}
+/* end of the banner section     */
+
+.company_profile{
+    padding: 0 0 0 60px;
+}
+.company_profile h1{
+    font-size: 48px;
+}
+
+.baner_content ul {
+    display: flex;
+    margin-left: -40px;
+    margin-top: 30px;
+}
+.company_profile p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #4C4E3D;
+    
+}
+
+/* Matrix at glance section  */
+.matrix {
+    margin-top: 100px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgb(37, 37, 37);
+}
+.matrix h1{
+    font-size: 48px;
+}
+.matrix_content div h3 {
+    margin-top: 10px;
+    font-size: 34px;
+    line-height: 44px;
+    color:#DA2D1C;
+    line-height: 36px;
+    font-weight: 300;
+}
+
+.matrix_content div p {
+    color: black;
+    font-weight: 300;
+}
+
+.researchHeading h1 {
+    
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.card_Section {
+    gap: 24px;
+}
+
+.crd {
+    padding: 18px;
+    border-radius: 12px;
+    
+    height: 386px;
+    width: 356px;
+    border: 1px solid gray;
+    gap: 24px;
+    padding: 48px 24px;
+}
+.crd h1 {
+    font-size: 34px;
+    line-height: 36px;
+    margin-bottom: 16px;
+    line-height: 44px;
+    font-weight: 100;
+    margin-top: 0;
+    color: #da2d1c;
+
+}
+.crd p {
+    color:black;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    
+}
+/*  mission and vision section  */
+
+.missionSection {
+    margin-top: 100px;
+}
+.mission_card {
+    height: 483px;
+    width: 356px;
+    border: 1px solid grey;
+    background-color: #474646;
+    border-radius: 16px;
+}
+.inner_box {
+    padding: 24px;
+}
+.inner_box h3 {
+    color: white;
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom: 8px
+}
+
+.inner_box p {
+    color: black;
+    font-size: 16px;
+    line-height: 26px
+}
+
+.inner_box img {
+    width: 67px;
+    border-radius: 16px;
+}
+
+.vision_card {
+    margin-top: 120px;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import './About.css'
 import Navbar from '../Navbar'
 import baner from './AboutAssets/baner.png'
 import abt from './AboutAssets/abt.png'

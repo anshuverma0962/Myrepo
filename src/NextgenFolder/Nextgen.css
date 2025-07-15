@@ -12,8 +12,8 @@ a {
 .headerNav li a{
     color: black;
     gap: 8px;
-    font-size: 18px;
-    font-weight: 100;
+    font-size: 20px;
+    font-weight: 400;
 }
 .headerNav li {
 margin: 16px;
@@ -58,7 +58,9 @@ margin: 16px;
 }
 
 .heroSection {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('../assets/machine.gif');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('../assets/machine.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* baner desing ------------------------ */
@@ -299,6 +301,9 @@ text-align: center;
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
+    color: black;
+    margin-bottom: 20px;
+    
 }
 
 
@@ -329,6 +334,10 @@ text-align: center;
     font-weight: bold;
 }
 
+.aboutText p{
+    color: rgb(31, 30, 30);
+    margin-top: 5px;
+}
 
 /*------------ Industries Image-----------  */
 
@@ -527,37 +536,9 @@ flex-direction: column;
 }
 
 /* ----------- -----------About Us seciton----------------------  */
-.About_baner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url('./Aboutusfolder/AboutAssets/baner.png');
-    height: 350px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-/* profile  */
-.company_profile{
-    padding: 0 0 0 60px;
-}
-.company_profile h1{
-    font-size: 48px;
-}
 
-.baner_content ul {
-    display: flex;
-    margin-left: -40px;
-    margin-top: 30px;
-}
-.company_profile p{
-    font-size: 18px;
-    font-weight: 400;
-    color: #4C4E3D;
-    
-}
-.spanbar {
-    height: 5px;
-    width: 80px;
-    background-color: #F02916;
-}
+/* profile  */
+
 
 .banner_list_item li a {
     padding: 10px;
@@ -587,179 +568,8 @@ flex-direction: column;
     padding-top: 100px;
 }
 
-/* ---------Matrix section ----------------- */
-
-.matrix_content div h3 {
-    margin-top: 10px;
-    font-size: 34px;
-    line-height: 44px;
-    color:#DA2D1C;
-    line-height: 36px;
-    font-weight: 300;
-}
-
-.matrix {
-    margin-top: 100px;
-    padding-bottom: 80px;
-    border-bottom: 1px solid rgb(37, 37, 37);
-}
-.matrix h1{
-    font-size: 48px;
-}
-
-/* ----------------research and developement----------------------  */
-.researchHeading h1 {
-    
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 56px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-
-.card_Section {
-    gap: 24px;
-}
-
-.crd {
-    padding: 18px;
-    border-radius: 12px;
-    
-    height: 386px;
-    width: 356px;
-    border: 1px solid gray;
-    gap: 24px;
-    padding: 48px 24px;
-}
-
-.crd h1 {
-    font-size: 34px;
-    line-height: 36px;
-    margin-bottom: 16px;
-    line-height: 44px;
-    font-weight: 100;
-    margin-top: 0;
-    color: #da2d1c;
-
-}
-
-.crd p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28px;
-    
-}
-
-.missionSection {
-    margin-top: 100px;
-}
-
-.mission_card {
-    height: 483px;
-    width: 356px;
-    border: 1px solid grey;
-    background-color: #474646;
-    border-radius: 16px;
-}
-
-.inner_box {
-    padding: 24px;
-}
-
-.inner_box h3 {
-    color: white;
-    font-size: 24px;
-    line-height: 34px;
-    margin-bottom: 8px
-}
-
-.inner_box p {
-    color: black;
-    font-size: 16px;
-    line-height: 26px
-}
-
-.inner_box img {
-    width: 67px;
-    border-radius: 16px;
-}
-
-.vision_card {
-    margin-top: 120px;
-}
-
 /* -----------------------service  page------------------------  */
-.service_baner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url('./ServicesFolder/ServiceAssets/services-1-1568x327.png');
-}
-
-.service_content {
-   
-    border-radius: 16px;
-    /* border: 1px solid rgb(172, 33, 33); */
- flex: 0 0 auto;
- width: 50%;
- padding-left:40px;
- padding-right: 40px;
- 
-}
-
-.service {
-    margin-top: 100px;
-}
-
-.service_content h2 {
-    font-size: 42px;
-    line-height: 52px;
-
-}
-
-.service_content p {
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 400;
-    color: black;
-}
-
-.serviceSection img {
-    width: 100%;
-    border-radius: 20px;
-}
-
-.inner_content {
-    margin-top: 12%;
-    padding: 20px;
-    border: 1px solid rgb(146, 144, 144);
-    border-radius: 20px;
-    
-}
-
 /*------------ client page=------------  */
-.client_baner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url('./ClientsFolder/ClientAssest/client_baner.png');
-}
-
-.client_list {
-    width: 204px;
-    height: 127px;
-    overflow: hidden;
-    border-radius: 16px;
-    border: 1px solid #c5c5c5;
-}
-
-.client_image {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 0
-}
-
-.client_image img {
-    width: 80%;
-    vertical-align: middle;
-}
-
 /* contact Us sectin  */
 .contact_baner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url('./ContactUsFolder/ContactAssest/contact_baner.png');

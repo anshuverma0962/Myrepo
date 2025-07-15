@@ -54,6 +54,6 @@ import vectus from './ClientAssest/vectus.png'
 
 
 
-const ClientList=[accil,aditya,ashok_leyland,canpack,cnh,crest,drdo,HNG,itc,metso,milestone,mita,moyra,musashi,new_hollnad,numeric,omp,polycab,ranee,rungtamines,sahaj,sail,sarda,schemtzz,sf,starwire,synova,ultratech,vectus,  cardley,dantal,futaba,jsl,marelli,maruti,microturners,motherson,ocp,praj,qn,shreeGanesh,srf,talbros,uttam]
+const ClientList=[accil,aditya,ashok_leyland,canpack,cnh,crest,drdo,HNG,itc,metso,milestone,mita,moyra,musashi,new_hollnad,numeric,omp,polycab,ranee,rungtamines,sahaj,sail,sarda,schemtzz,sf,starwire,synova,ultratech,vectus,  cardley,dantal,futaba,jsl,marelli,maruti,microturners,motherson,ocp,praj,qn,shreeGanesh,srf,talbros,uttam,crest]
 
 export  {ClientList}
